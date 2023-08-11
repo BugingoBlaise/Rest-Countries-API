@@ -101,16 +101,22 @@ a{
 }
 
 #search-button {
-  padding: 10px 15px;
+  padding: 10px 50px;
   background-color: #2b3945;
   color: white;
   border: none;
   border-radius: 20px;
   cursor: pointer;
+  box-shadow: 0 0 16px 0 rgba(0, 0, 0, 0.2);
 }
 
 #search-button:hover {
   background-color: #1f2a33;
+  /* transition: ; */
+  
+  transform: scale(.80);
+ 
+
  
 }
 
