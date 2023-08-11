@@ -68,6 +68,16 @@ a{
     margin-block: 16px;
 }
 
+.dark-mode {
+  background-color: #202c37;
+  color: white;
+}
+
+.dark-mode .header-content {
+  background-color: #2b3945;
+  color: white;
+}
+
 @media(max-width:768px){
   .countries-container{
     justify-content: center;
