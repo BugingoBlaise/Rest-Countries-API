@@ -27,8 +27,19 @@
     </header>
     <main>
       <div class="search-container">
-        <input type="search" id="country-search" placeholder="Search for a country">
+       <div class="search">
+        <input type="input" id="country-search" placeholder="Search for a country">
         <button type="button" id="search-button">Search</button>
+       </div>
+       
+        <select class="filter-by-region">
+          <option hidden>Filter by Region</option>
+          <option value="Africa">Africa</option>
+          <option value="America">America</option>
+          <option value="Asia">Asia</option>
+          <option value="Europe">Europe</option>
+          <option value="Oceania">Oceania</option>
+        </select>
       </div>
       <div class="countries-container">      
                       
